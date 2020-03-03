@@ -1,0 +1,22 @@
+.food_wrapper{
+    height: 100vh;
+    padding: 10px;
+}
+.open__food_item{
+    margin-top: 10px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    width: calc(100% - 20px);
+    min-height: 117px;
+    background: #FFFFFF;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 12px;
+}
+.open_img{
+    height: 117px;
+    left: 8px;
+    top: 291px;
+    display: block;
+    border-radius: 12px 0 0 12px;
+}
